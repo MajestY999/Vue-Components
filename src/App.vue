@@ -1,20 +1,17 @@
 <template>
-  <div id="app" style="text-align: center; padding-top: 40px; font-family: sans-serif; color: green;">
-    <h1>Как работают слоты  в вью</h1>
-
+  <div id="app" style="text-align: center; padding-top: 40px; font-family: sans-serif;">
+    <h1>Изучение слотов во Vue.js</h1>
 
     <BaseAlert>
-      Это первое уведомление, здесь просто текст. 
+      Это первое уведомление, здесь просто текст.
     </BaseAlert>
 
-    
     <BaseAlert>
-      <b>Внимание!</b> Это очень важное жирное сообщение. 
+      <b>Внимание!</b> Это очень важное и  жирное сообщение.
     </BaseAlert>
 
-    
     <BaseAlert>
-      Что-то пошло не так. Возможно есть ошибка <a href="#">здесь</a>.
+      Тут какая-то ошибка. Подробнее можно узнать <a href="#">здесь</a>.
     </BaseAlert>
   </div>
 </template>
